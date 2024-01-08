@@ -111,6 +111,45 @@ header{
       font-weight: bold;
 }
 
+/* second code start */
+.second{
+      background-color: #154360;
+      padding: 50px 0 100px 0;
+}
+.our-text{
+      color: white;
+      font-size: 45px;
+      text-align: center;
+      letter-spacing: 0.2em;
+      padding: 50px 0;
+}
+.smart-area{
+      width: 1100px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+
+}
+
+.smart-text{
+      color: white;
+}
+.smart-text h2{
+      margin: 20px 0;
+      font-size: 30px;
+}
+
+.smart-text a{
+      text-decoration: none;
+      display:inline-block;
+      margin-top: 40px;
+      color: black;
+      background-color: bisque;
+      padding: 10px 20px;
+      border-radius: 5px;
+}
 
 
 
@@ -152,6 +191,8 @@ header{
             background: none;
             color: red;
       }
+    
+  
 
       
 }
@@ -165,6 +206,22 @@ header{
             padding: 10px 20px;
       
       }
+      .smart-area{
+            flex-direction: column;
+            margin-left: 40px;
+            margin-right: 40px;
+            width: 90%;
+      }
+      .smart-img img{
+            width: 100%;
+      }
+      .smart-text{
+            margin-top: 50px;
+      }
+
+     
+     
+
 }
 @media only screen and (min-width:689px) and (max-width:1099px){
       .Services-parent{
@@ -175,4 +232,17 @@ header{
             padding: 10px 20px;
       
       }
+      .smart-area{
+            flex-direction: column;
+            margin-left: 40px;
+            margin-right: 40px;
+            width: 90%;
+      }
+      .smart-img img{
+            width: 100%;
+      }
+      .smart-text{
+            margin-top: 50px;
+      }
+
 }
