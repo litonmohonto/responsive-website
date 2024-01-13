@@ -415,6 +415,69 @@ header{
 }
 
 
+/* footer code  start */
+
+footer{
+      background-color: #154360;
+      padding: 80px 0;
+}
+#footer-parent{
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      width: 1100px;
+      gap: 80px;
+      color: white;
+}
+.single-footer h5{
+      font-size: 20px;
+      margin-bottom: 10px;
+}
+
+.single-footer h5 span{
+      color: yellow;
+}
+.single-footer-single-footer-2 h5{
+      font-size: 18px;
+      margin-bottom: 10px;
+}
+.single-footer-single-footer-2 h5 span{
+      color: yellow;
+}
+.single-footer-single-footer-2 p{
+      margin: 10px 0;
+}
+.single-footer-single-footer-2 p a{
+      text-decoration: none;
+      color: white;
+}
+
+
+.single-footer-single-footer-3 h5{
+      font-size: 18px;
+      margin-bottom: 10px;
+}
+.single-footer-single-footer-3 h5 span{
+      color: yellow;
+}
+.single-footer-single-footer-3 ul{
+      display: flex;
+
+}
+.single-footer-single-footer-3 ul li{
+      list-style: none;
+      margin: 10px ;
+     
+}
+.single-footer-single-footer-3 ul li a{
+      text-decoration: none;
+      color: white;
+}
+.single-footer-single-footer-3 ul li a i{
+      background-color: #0b2738 ;
+      padding: 5px 8px;
+      border-radius: 5px;
+}
 
 
 
@@ -551,6 +614,22 @@ header{
             width: 90%;
       
       }
+
+      #footer-parent{
+          flex-direction: column;
+          width: 100%;
+          gap: 20px;
+          text-align: center;
+         
+      }
+      .single-footer{
+            margin: 0 20px;
+      }
+      .single-footer-single-footer-3 ul{
+            display: flex;
+            justify-content: center;
+      }
+     
     
       
      
@@ -636,6 +715,25 @@ header{
             grid-template-columns: repeat(2, 1fr);
             grid-gap: 30px;
           
+      }
+      .takeCare-parent{
+            flex-direction: column;
+            width: 100%;
+       }
+       .single-takeCare{
+             width: 90%;
+       
+       }
+
+      #footer-parent{
+            display: flex;
+            width: 100%;
+            gap: 30px;
+       
+           
+      }
+      .single-footer{
+            margin-left: 20px;
       }
 
 
